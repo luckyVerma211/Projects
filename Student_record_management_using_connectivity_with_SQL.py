@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='1234',database='Student_management')
+mydb=mysql.connector.connect(host='localhost',user='root',password='root',database='Student_management')
 
 def addstudent():
     sid=int(input("Enter the Student ID:"))
